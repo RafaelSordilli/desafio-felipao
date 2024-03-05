@@ -8,7 +8,7 @@ let nivel;
 
 
 
-//-----------------------ESTRUTURA DE DECISÃO PARA DECIDIR O NIVEL DO HEROI PELA QUANTIDADE DE XP----------//
+//-----------------------ESTRUTURA DE DECISÃO PARA DETERMINAR O NIVEL DO HEROI PELA QUANTIDADE DE XP----------//
 if (xp < 1000) {
     nivel = "Ferro";
 }else if (xp >= 1001 && xp <= 2000){
@@ -27,5 +27,5 @@ if (xp < 1000) {
     nivel = "Radiante";
 }
 
-
+//----------------------SAIDA----------------------------//
 console.log("O Herói de nome " + nickname + " está no nível de " + nivel);
